@@ -1,0 +1,16 @@
+.gradient-text {
+  background: linear-gradient(to right, #3B82F6, #8B5CF6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card-hover {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Add a base background color to ensure contrast */
+body {
+  background-color: #000000;
+  color: #FFFFFF;
+} 

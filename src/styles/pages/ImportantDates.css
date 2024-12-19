@@ -1,0 +1,57 @@
+.important-dates-container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #0f172a, #1a0f2e);
+  padding: 6rem 1rem 4rem;
+  color: white;
+}
+
+.important-dates-content {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.important-dates-section {
+  margin-bottom: 2rem;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 0.75rem;
+  backdrop-filter: blur(10px);
+}
+
+.important-dates-title {
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(to right, #60a5fa, #a855f7);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.important-dates-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.important-dates-list-item {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.important-dates-list-item::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #60a5fa;
+}
+
+@media (max-width: 768px) {
+  .important-dates-container {
+    padding: 5rem 0.5rem 2rem;
+  }
+  
+  .important-dates-section {
+    padding: 1rem;
+  }
+}
